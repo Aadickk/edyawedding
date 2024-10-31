@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f4e3c0;
+    padding: 20px;
+}
+
+#details, #rsvp, #gallery {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
